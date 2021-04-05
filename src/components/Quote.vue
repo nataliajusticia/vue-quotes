@@ -7,7 +7,7 @@
     </p>
 
     <router-link
-      :to="{ name: 'Author', params: { author } }"
+      :to="{ name: 'Author', params: { aId: author } }"
       class="flex items-center justify-between p-8 transition duration-500 ease-in-out border-l-8 border-transparent cursor-pointer focus:outline-black focus:bg-black focus:text-white md:p-16 hover:bg-black hover:text-white group"
     >
       <div>
