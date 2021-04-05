@@ -5,7 +5,7 @@
     <a
       @click="loadRandomQuote"
       href=""
-      class="absolute top-0 right-0 flex lowercase cursor-pointer text-gray"
+      class="absolute top-0 right-0 flex lowercase cursor-pointer text-gray focus:outline-black"
     >
       Random
 

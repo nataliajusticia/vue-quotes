@@ -786,7 +786,7 @@ module.exports = {
     clear: ["responsive"],
     container: ["responsive"],
     cursor: ["responsive"],
-    display: ["responsive", "group-hover", "hover", "focus"],
+    display: ["responsive", "group-hover", "group-focus", "hover", "focus"],
     divideColor: ["responsive", "dark"],
     divideOpacity: ["responsive", "dark"],
     divideStyle: ["responsive"],
