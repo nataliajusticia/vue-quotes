@@ -170,22 +170,7 @@ module.exports = {
       DEFAULT: "1"
     },
     fontFamily: {
-      sans: [
-        "ui-sans-serif",
-        "system-ui",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        '"Segoe UI"',
-        "Roboto",
-        '"Helvetica Neue"',
-        "Arial",
-        '"Noto Sans"',
-        "sans-serif",
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"'
-      ],
+      sans: ["Raleway", "sans-serif"],
       serif: [
         "ui-serif",
         "Georgia",
@@ -801,7 +786,7 @@ module.exports = {
     clear: ["responsive"],
     container: ["responsive"],
     cursor: ["responsive"],
-    display: ["responsive"],
+    display: ["responsive", "group-hover", "hover", "focus"],
     divideColor: ["responsive", "dark"],
     divideOpacity: ["responsive", "dark"],
     divideStyle: ["responsive"],
